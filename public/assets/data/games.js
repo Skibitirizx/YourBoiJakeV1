@@ -27,8 +27,8 @@ var games = [
   {
     id: 'driftboss',
     title: 'Drift Boss',
-    image: 'https://play-lh.googleusercontent.com/fLrnXuD1B0w6FEDJ1UKmv_TYbNyJ4GwzsQu9ltx57MfIj037nig4cVunG3CYmczkjMDA',
-    url: 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://738501629-461082748261058427.preview.editmysite.com/uploads/b/139890129-817510652323129407/files/drbo.xml'
+    image: 'https://drift-boss.pro/upload/cache/upload/imgs/drift-boss1-m500x500.png',
+    url: 'https://www.hoodamath.com/mobile/games/drift-boss/game.html'
   },
   {
     id: 'breakingthebank',
@@ -51,8 +51,8 @@ var games = [
   {
     id: 'monkey mart',
     title: 'Monkey Mart',
-    url: 'https://deathnoteispeak.blog-guru.web.id/edu/hvtrs8%2F-h%7Bdpaeaoeq.ac-ari-gcmgs-svavia%2Foolkgy%2Fmcrv%2Fknfez.jtol',
-    image: 'https://deathnoteispeak.blog-guru.web.id/edu/hvtrs8%2F-h%7Bdpaeaoeq.ac-ari-iog-iaols-mmnie%7Bmcrv-kcm.qve'
+    url: 'https://monkey-mart.io/iframe/index.html',
+    image: 'https://monkey-mart.io/wp-content/uploads/2023/06/monkey-mart.png'
   },
   {
     id: 'littlealchemy',
