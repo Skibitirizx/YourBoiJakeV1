@@ -25,12 +25,6 @@ var games = [
     image: 'https://th.bing.com/th?id=OIP.6jjUQ7Niv2cl4NvkOrkf_QAAAA&w=255&h=244&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2'
   },
   {
-    id: 'capybaraclicker',
-    title: 'Capybara Clicker',
-    url: 'https://totallyscience.co/games/2024/onl/capybara-clicker/index.html',
-    image: 'https://totallyscience.co/media/posts/733/responsive/Capybara-Clicker-xs.jpg'
-  },
-  {
     id: 'driftboss',
     title: 'Drift Boss',
     image: 'https://drift-boss.pro/upload/cache/upload/imgs/drift-boss1-m500x500.png',
@@ -132,6 +126,12 @@ var games = [
     title: 'Bitlife',
     url: 'https://superhuman.hotunix.com/assignments/bitlife/index.html',
     image: 'https://classroom-6x.io/games/bitlife-life-simulator/thumb_1.jpg'
+  },
+  {
+    id: 'capybaraclicker',
+    title: 'Capybara Clicker',
+    url: 'https://totallyscience.co/games/2024/onl/capybara-clicker/index.html',
+    image: 'https://totallyscience.co/media/posts/733/responsive/Capybara-Clicker-xs.jpg'
   }
 ]
 games.sort(function (a, b) {
