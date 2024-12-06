@@ -75,19 +75,19 @@ var games = [
   {
     id: 'soundboard',
     title: 'SoundBoard',
-    url: 'https://www.myinstants.com/categories/sound%20effects/',
+    url: 'https://soundbuttonsworld.com/#google_vignette',
     image: 'https://th.bing.com/th?id=ODLS.a14279a1-2396-4c5e-a1d2-a7062e7ae498&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2'
   },
   {
     id: 'geometrydash',
     title: 'Geometry Dash',
-    url: 'https://www.phantomgames.dev/game/geometry-dash-remastered/index.html',
+    url: 'https://geometrygame.org/game/geometry-dash-lite/',
     image: 'https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG'
   },
   {
     id: 'swerve',
     title: 'Swerve',
-    url: 'https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/VecAxR3e/index.html',
+    url: 'https://playcanv.as/p/y3ZFwtwW/',
     image: 'https://th.bing.com/th/id/OIP.CFRRtBXXyH_FP7XGCJwMdQAAAA?w=172&h=176&c=7&r=0&o=5&pid=1.7'
   },
   {
@@ -99,14 +99,13 @@ var games = [
   {
     id: '1v1lol',
     title: "1v1.lol",
-    url: 'https://nowggnowggnowggnowggnowggnowggnowggnowggnowggnowggnowggnowgg.gg.coffe.ink/lessons?pg=449#f18k3kkvo78luou',
+    url: 'https://superhuman.hotunix.com/assignments/1v1lol/index.html',
     image: 'https://tse2.mm.bing.net/th?id=OIP.W4iXiVKmFVKt9y99It-wXwHaFt&pid=Api&P=0&h=180'
   },
   { 
     id: 'retrobowl',
     title: 'Retro Bowl',
-    url: 'https://game316009.konggames.com/gamez/0031/6009/live/index.html',
-    url: 'gamescode/retrobowl.html',
+    url: 'https://superhuman.hotunix.com/assignments/retro-bowl/index.html',
     image: 'https://tse2.mm.bing.net/th?id=OIP.W4iXiVKmFVKt9y99It-wXwHaFt&pid=Api&P=0&h=180'
   },
   {
@@ -117,16 +116,16 @@ var games = [
     description: 'EXPERIMENTAL: This may or may not work for you. Please don\'t report it if it doesn\'t. If you have bad WiFi, it may load slower than usual (Advice: This works better at your house).'
   },
   {
-    id: 'recoil',
-    title: 'Recoil',
-    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/b0687b5099af0b76aedf37743f2d03cbeef26467/2/5cf218d2-f550-420c-8e55-7029efc5b4db/index.html',
-    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/5cf218d2-f550-420c-8e55-7029efc5b4db.jpg'
+    id: 'slope',
+    title: 'Slope',
+    url: 'https://superhuman.hotunix.com/assignments/slope/index.html',
+    image: 'https://www.google.com/imgres?q=slope%20game&imgurl=https%3A%2F%2Fslope-play.com%2Fdata%2Fimage%2Fgame%2Fslope-logo-1.jpg&imgrefurl=https%3A%2F%2Fslope-play.com%2F&docid=9hZQqGeDykMKfM&tbnid=gS-gDblasI8p9M&vet=12ahUKEwiVttvMsJKKAxWXFVkFHc12Kj8QM3oECBQQAA..i&w=375&h=375&hcb=2&ved=2ahUKEwiVttvMsJKKAxWXFVkFHc12Kj8QM3oECBQQAA'
   },
   {
-    id: 'brawlguys',
-    title: 'Brawl Guys',
-    url: 'https://smartfoloosanta.bitbucket.io/retro-bowl/',
-    image: 'https://play-lh.googleusercontent.com/EiElcSrd6-o-19roiswSx0AZPzsq6qF3hUGHsSWDl5UVtj7G23DHkneM8ucwqyOmEg'
+    id: 'bitlife',
+    title: 'Bitlife',
+    url: 'https://superhuman.hotunix.com/assignments/bitlife/index.html',
+    image: 'https://bitlifeonline.github.io/play.html'
   }
 ]
 games.sort(function (a, b) {
