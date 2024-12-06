@@ -28,7 +28,7 @@ var games = [
     id: 'driftboss',
     title: 'Drift Boss',
     image: 'https://drift-boss.pro/upload/cache/upload/imgs/drift-boss1-m500x500.png',
-    url: 'https://www.hoodamath.com/mobile/games/drift-boss/game.html'
+    url: 'https://driftbossonline.github.io/file/'
   },
   {
     id: 'breakingthebank',
@@ -51,7 +51,7 @@ var games = [
   {
     id: 'monkey mart',
     title: 'Monkey Mart',
-    url: 'https://monkey-mart.io/iframe/index.html',
+    url: 'https://classroom-6x.io/games/monkey-mart-5.2/',
     image: 'https://monkey-mart.io/wp-content/uploads/2023/06/monkey-mart.png'
   },
   {
@@ -82,7 +82,7 @@ var games = [
     id: 'geometrydash',
     title: 'Geometry Dash',
     url: 'https://geometrygame.org/game/geometry-dash-lite/',
-    image: 'https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG'
+    image: 'https://image.meta1s.com/j21e_I2W5UCp6jKeXRC4jVypj5PEY2otOtVcFNKLPSg/rs:fit:200:200/q:81/aHR0cHM6Ly9pbWcubWV0YTFzLmNvbS9kNmNiNjFhM2NiZmU0ODFkOGYwZWIyMjY2NTNlMTc0ZS5qcGc='
   },
   {
     id: 'swerve',
@@ -119,13 +119,13 @@ var games = [
     id: 'slope',
     title: 'Slope',
     url: 'https://superhuman.hotunix.com/assignments/slope/index.html',
-    image: 'https://deathnoteispeak.blog-guru.web.id/edu/hvtrs8%2F-h%7Bdpaeaoeq.ac-ari-iog-iaols-snore%2Cstg'
+    image: 'https://classroom-6x.io/games/slope-game/thumb_2.jpg'
   },
   {
     id: 'bitlife',
     title: 'Bitlife',
     url: 'https://superhuman.hotunix.com/assignments/bitlife/index.html',
-    image: 'https://deathnoteispeak.blog-guru.web.id/edu/hvtrs8%2F-h%7Bdpaeaoeq.ac-ari-iog-iaols-bktnide%2Cstg'
+    image: 'https://classroom-6x.io/games/bitlife-life-simulator/thumb_1.jpg'
   }
 ]
 games.sort(function (a, b) {
