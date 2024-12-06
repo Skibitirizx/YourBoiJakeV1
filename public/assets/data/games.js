@@ -49,6 +49,12 @@ var games = [
     image: 'https://th.bing.com/th/id/OIP.-Bdzvy87SmMmkN8X8si0mAHaFR?w=254&h=180&c=7&r=0&o=5&pid=1.7'
   },
   {
+    id: 'monkey mart',
+    title: 'Monkey Mart',
+    url: 'https://deathnoteispeak.blog-guru.web.id/edu/hvtrs8%2F-h%7Bdpaeaoeq.ac-ari-gcmgs-svavia%2Foolkgy%2Fmcrv%2Fknfez.jtol',
+    image: 'https://deathnoteispeak.blog-guru.web.id/edu/hvtrs8%2F-h%7Bdpaeaoeq.ac-ari-iog-iaols-mmnie%7Bmcrv-kcm.qve'
+  },
+  {
     id: 'littlealchemy',
     title: 'Little Alchemy',
     url: 'https://littlealchemy.com',
@@ -76,7 +82,7 @@ var games = [
     id: 'geometrydash',
     title: 'Geometry Dash',
     url: 'https://geometrygame.org/game/geometry-dash-lite/',
-    image: 'https://th.bing.com/th/id/OIP.KlJ0SKu7CF9siXk8-19l9QHaHa?w=160&h=180&c=7&r=0&o=5&pid=1.7'
+    image: 'https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG'
   },
   {
     id: 'swerve',
@@ -114,8 +120,9 @@ var games = [
     title: 'Slope',
     url: 'https://superhuman.hotunix.com/assignments/slope/index.html',
     image: 'https://deathnoteispeak.blog-guru.web.id/edu/hvtrs8%2F-h%7Bdpaeaoeq.ac-ari-iog-iaols-snore%2Cstg'
+  },
   {
-    id: 'bitlife'
+    id: 'bitlife',
     title: 'Bitlife',
     url: 'https://superhuman.hotunix.com/assignments/bitlife/index.html',
     image: 'https://deathnoteispeak.blog-guru.web.id/edu/hvtrs8%2F-h%7Bdpaeaoeq.ac-ari-iog-iaols-bktnide%2Cstg'
