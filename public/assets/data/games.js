@@ -59,12 +59,12 @@ var games = [
     title: 'Little Alchemy',
     url: 'https://littlealchemy.com',
     image: 'https://play-lh.googleusercontent.com/-NQ2QLAOaafy7iHAJcrdEFk-tyVicnbwy6iLehml8K0Higi60sSVn0829bcyi1lOUw'
-   },
+  },
   {
     id: 'littlealchemy2',
     title: 'Little Alchemy 2',
     url: 'https://littlealchemy2.com/',
-    image: 'https://hints.littlealchemy2.com/img/la2-logo.svg' 
+    image: 'https://hints.littlealchemy2.com/img/la2-logo.svg'
   },
   {
     id: 'chromedino',
@@ -133,24 +133,13 @@ var games = [
     url: 'https://totallyscience.co/games/2024/onl/capybara-clicker/index.html',
     image: 'https://totallyscience.co/media/posts/733/responsive/Capybara-Clicker-xs.jpg'
   }
-]
+];
+
+// Sort games alphabetically by title
 games.sort(function (a, b) {
   return a.title.localeCompare(b.title);
 });
+
+// Pin custom game to the top
 var customGameId = "customgame"; // replace with the id of the game you want to pin
-var customGame = games.find(function (game) {
-  return game.id === customGameId;
-});
-games.splice(games.indexOf(customGame), 1);
-games.unshift(customGame);
-
-var customgames = getObj("customgames")
-if (customgames) customgames.forEach(game => {
-  games.push(game)
-})
-
-console.log("Loaded " + games.length + " games")
-if (customgames) console.log("Loaded " + customgames.length + " custom games")
-
-console.log("Loaded " + games.length + " games")
-if (customgames) console.log("Loaded " + customgames.length + " custom games")
+var customGame = games.find(function
