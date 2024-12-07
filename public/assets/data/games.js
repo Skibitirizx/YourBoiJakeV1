@@ -1,3 +1,4 @@
+// Define the list of games
 var games = [
   {
     id: 'customgame',
@@ -113,7 +114,7 @@ var games = [
     title: 'Roblox',
     url: 'https://educationbluesky.com/',
     image: 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht=w240-h480-rw',
-    description: 'EXPERIMENTAL: This may or may not work for you. Please don\'t report it if it doesn\'t. If you have bad WiFi, it may load slower than usual (Advice: This works better at your house).'
+    description: 'EXPERIMENTAL: This may or may not work for you. Please don\'t report it if it doesn’t work. If you have bad WiFi, it may load slower than usual.'
   },
   {
     id: 'slope',
@@ -135,11 +136,33 @@ var games = [
   }
 ];
 
-// Sort games alphabetically by title
-games.sort(function (a, b) {
-  return a.title.localeCompare(b.title);
-});
+// Function to render the games on the page
+function renderGames() {
+  var container = document.getElementById('games-container');
+  container.innerHTML = ''; // Clear previous content
 
-// Pin custom game to the top
-var customGameId = "customgame"; // replace with the id of the game you want to pin
-var customGame = games.find(function
+  games.forEach(game => {
+    var gameElement = document.createElement('div');
+    gameElement.classList.add('game');
+
+    var gameTitle = document.createElement('h3');
+    gameTitle.textContent = game.title;
+
+    var gameImage = document.createElement('img');
+    gameImage.src = game.image;
+    gameImage.alt = game.title;
+
+    var gameLink = document.createElement('a');
+    gameLink.href = game.url;
+    gameLink.target = '_blank';
+
+    gameLink.appendChild(gameImage);
+    gameLink.appendChild(gameTitle);
+
+    gameElement.appendChild(gameLink);
+    container.appendChild(gameElement);
+  });
+}
+
+// Call the render function on page load
+window.onload = renderGames;
